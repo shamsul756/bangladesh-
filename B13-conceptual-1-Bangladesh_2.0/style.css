@@ -20,7 +20,7 @@
     border:1px solid rgb(16, 25, 1);
     background-color: rgb(255, 255, 255);
     color: #2c3513;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 600;
     border-radius: 8px;
     cursor: pointer;
@@ -33,12 +33,14 @@
 
 header{
     background:greenyellow;
+    
    
 }
 
 
 .green{
     color: rgb(2, 48, 2);
+    font-weight: 700;
 
 }
 .red{
@@ -50,4 +52,120 @@ nav{
     justify-content: space-between;
     background-color: greenyellow;
      padding: 10px 0;
+    
+}
+/* end header section part  */
+/* start hero section  */
+.hero-container{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    align-items: center;
+    padding: 70px;
+    margin: 18px 0;
+}
+.hero-container  .hero-container-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.hero-container-subtitle{
+    font-weight: 700;
+    font-size: 56px;
+    color: rgba(14, 14, 14, 1);
+    margin: 0px 0px 10px 0px;
+}
+.btn{
+    padding: 10px auto;
+    margin: 10px 0px;
+}
+
+/* end hero section  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+ .green{
+    color: rgb(2, 48, 2);
+    font-size:20px 
+
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: greenyellow;
+   
+}
+  .btn{
+    padding: 2px;
+    margin: 5px 0;
+    color: #031405;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer; 
+}
+.btn:hover{
+    background-color: rgb(20, 70, 20); 
+    color:#aefbff;  
+}
+.hero-container{
+    flex-direction: column;
+    
+}
+.hero-container img{
+    width:250px;
+}
+.hero-container  .hero-container-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.hero-container-subtitle{
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(14, 14, 14, 1);
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(95, 162, 2, 0.604);
+    border-radius: 15px;
+   
+}
+.hero-container{
+    flex-direction: column;
+}
 }
