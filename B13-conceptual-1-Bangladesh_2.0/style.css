@@ -241,7 +241,20 @@ nav{
 }
 .btn{
     border: 1px solid green;
-   max-width: max-content;
+   max-width: max;
+}
+.hero-container{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    background-image: linear-gradient(green, red);
+    align-items: center;
+    padding: 70px;
+    margin: 18px 0;
+}
+
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -256,4 +269,5 @@ nav{
 .hero-container{
     flex-direction: column;
 }
+
 }
