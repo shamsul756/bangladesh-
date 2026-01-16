@@ -129,10 +129,30 @@ start pillar section */
 .recent-news-header{
     margin-bottom: 15px;
 }
-
-
-
-
+.recent-new-card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+.satelite-image{
+    border-radius: 15px;
+    width: 406px;
+    height: 305px;
+    margin-bottom: 20px;
+}
+.recent-news-info-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.al-jazeera-image{
+    width: 134px;
+    height: 40px;
+}
 
 
 
@@ -166,7 +186,8 @@ nav{
     background-color: rgb(20, 70, 20); 
     color:#aefbff;  
 }
-.hero-container{
+.hero-container
+{
     flex-direction: column;
     
 }
@@ -188,10 +209,40 @@ nav{
     
 }
 
+.recent-new-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 5px; 
+}
+.satelite-image{
+  width: 100%;
+}
+.pillar-card img{
+    margin: 0 auto;
+    padding: 15px 0;
 
 }
-
-
+.pillar-card-parent{
+    flex-direction: column;
+    gap: 5px;
+}
+.recent-new-section h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.recent-new-section p{
+    font-size: 16px;
+    color: #625d5d;
+    justify-content: justify;
+  
+}
+.btn{
+    border: 1px solid green;
+   max-width: max-content;
+}
 
 @media screen and (min-width:576px) and (max-width:992px) {
 
