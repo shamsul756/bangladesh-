@@ -153,9 +153,11 @@ start pillar section */
     width: 134px;
     height: 40px;
 }
+/* quote section */
 
-
-
+.quote{
+    margin: 50px auto;
+}
 
 
 
